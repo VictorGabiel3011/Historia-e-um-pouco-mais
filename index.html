@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portal informativo sobre conflitos históricos dos séculos XX e XXI.">
+
+    <title>História e um pouco mais</title>
+
+    <!-- Conexão com CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Conexão com JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header class="topo">
+
+        <div class="marca">
+
+            <span class="simbolo">H+</span>
+
+            <div>
+                <h1>História e um pouco mais</h1>
+                <p>Portal de pesquisa • História mundial</p>
+            </div>
+
+        </div>
+
+        <p class="aviso-data">
+            Conteúdo atualizado em 18 de novembro de 2026
+        </p>
+
+    </header>
+
+
+    <!-- ABAS DE NAVEGAÇÃO -->
+
+    <nav class="abas-wrap" aria-label="Navegação por conflitos">
+
+        <div class="abas" id="abas">
+
+            <button class="aba ativa" data-page="inicio">
+                Início
+            </button>
+
+            <button class="aba" data-page="ira">
+                Irã × EUA e Israel
+            </button>
+
+            <button class="aba" data-page="israel">
+                Israel–Hamas
+            </button>
+
+            <button class="aba" data-page="ucrania">
+                Rússia–Ucrânia
+            </button>
+
+            <button class="aba" data-page="golfo">
+                Guerra do Golfo
+            </button>
+
+            <button class="aba" data-page="coreia">
+                Guerra da Coreia
+            </button>
+
+            <button class="aba" data-page="ww1">
+                Primeira Guerra
+            </button>
+
+            <button class="aba" data-page="ww2">
+                Segunda Guerra
+            </button>
+
+            <button class="aba" data-page="pacifico">
+                EUA × Japão
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+
+    <main class="container">
+
+        <!-- PÁGINA INICIAL -->
+
+        <section class="pagina ativa" id="inicio">
+
+            <div class="hero">
+
+                <span class="etiqueta">
+                    HISTÓRIA • CONTEXTO • MEMÓRIA
+                </span>
+
+                <h2>
+                    Entender o passado ajuda a compreender o presente.
+                </h2>
+
+                <p>
+                    Explore conflitos que mudaram fronteiras,
+                    governos, sociedades e relações internacionais.
+
+                    Cada página apresenta contexto histórico,
+                    personagens, desenvolvimento, encerramento
+                    ou situação atual e imagens com seus créditos.
+                </p>
+
+                <div class="hero-dados">
+
+                    <div>
+                        <strong>8</strong>
+                        <span>temas históricos</span>
+                    </div>
+
+                    <div>
+                        <strong>3</strong>
+                        <span>séculos de história</span>
+                    </div>
+
+                    <div>
+                        <strong>1</strong>
+                        <span>objetivo: informar</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CARTÕES DAS GUERRAS -->
+
+            <div class="secao-cabecalho">
+
+                <span class="etiqueta">
+                    NAVEGUE PELO ACERVO
+                </span>
+
+                <h2>Conflitos em ordem cronológica</h2>
+
+                <p>
+                    Selecione uma aba no topo ou um cartão
+                    abaixo para abrir a página do conflito.
+                </p>
+
+            </div>
+
+
+            <div class="grade-inicio">
+
+                <button class="cartao-link" data-go="ira">
+
+                    <span>2026 • em andamento</span>
+
+                    <strong>
+                        Irã × Estados Unidos e Israel
+                    </strong>
+
+                    <small>
+                        Escalada regional, ataques,
+                        cessar-fogo instável e diplomacia.
+                    </small>
+
+                </button>
+
+
+                <button class="cartao-link" data-go="israel">
+
+                    <span>2023–presente • situação instável</span>
+
+                    <strong>Israel–Hamas</strong>
+
+                    <small>
+                        O ataque de 7 de outubro,
+                        a guerra em Gaza e as negociações.
+                    </small>
+
+                </button>
+
+
+                <button class="cartao-link" data-go="ucrania">
+
+                    <span>2014 / 2022–presente</span>
+
+                    <strong>Rússia–Ucrânia</strong>
+
+                    <small>
+                        Da crise de 2014 à invasão
+                        em larga escala de 2022.
+                    </small>
+
+                </button>
+
+
+                <button class="cartao-link" data-go="golfo">
+
+                    <span>1990–1991</span>
+
+                    <strong>Guerra do Golfo</strong>
+
+                    <small>
+                        A invasão do Kuwait
+                        e a coalizão internacional.
+                    </small>
+
+                </button>
+
+
+                <button class="cartao-link" data-go="coreia">
+
+                    <span>1950–1953</span>
+
+                    <strong>Guerra da Coreia</strong>
+
+                    <small>
+                        A divisão da península
+                        e o confronto da Guerra Fria.
+                    </small>
+
+                </button>
+
+
+                <button class="cartao-link" data-go="ww1">
+
+                    <span>1914–1918</span>
+
+                    <strong>Primeira Guerra Mundial</strong>
+
+                    <small>
+                        Alianças, nacionalismos,
+                        trincheiras e o armistício.
+                    </small>
+
+                </button>
+
+
+                <button class="cartao-link" data-go="ww2">
+
+                    <span>1939–1945</span>
+
+                    <strong>Segunda Guerra Mundial</strong>
+
+                    <small>
+                        O conflito global, o Holocausto
+                        e a nova ordem mundial.
+                    </small>
+
+                </button>
+
+
+                <button class="cartao-link" data-go="pacifico">
+
+                    <span>1941–1945 • parte da Segunda Guerra</span>
+
+                    <strong>EUA × Japão no Pacífico</strong>
+
+                    <small>
+                        Pearl Harbor, batalhas no Pacífico
+                        e a rendição japonesa.
+                    </small>
+
+                </button>
+
+            </div>
+
+
+            <aside class="nota">
+
+                <strong>Como interpretar este portal:</strong>
+
+                Guerras envolvem sociedades inteiras
+                e experiências humanas diversas.
+
+                O conteúdo procura distinguir fatos
+                documentados, interpretações históricas
+                e informações ainda sujeitas a mudanças.
+
+                Não substitui livros, documentos
+                e pesquisas acadêmicas.
+
+            </aside>
+
+        </section>
+
+
+        <!-- PÁGINAS DAS GUERRAS -->
+
+        <!-- O JavaScript preencherá estas páginas -->
+
+        <section class="pagina" id="ira"></section>
+
+        <section class="pagina" id="israel"></section>
+
+        <section class="pagina" id="ucrania"></section>
+
+        <section class="pagina" id="golfo"></section>
+
+        <section class="pagina" id="coreia"></section>
+
+        <section class="pagina" id="ww1"></section>
+
+        <section class="pagina" id="ww2"></section>
+
+        <section class="pagina" id="pacifico"></section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            <strong>História e um pouco mais</strong>
+            • Projeto educativo e informativo
+        </p>
+
+        <p>
+            Consulte as fontes e os créditos de cada página.
+            Imagens podem ter licenças diferentes;
+            verifique a página original antes de reutilizá-las.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
